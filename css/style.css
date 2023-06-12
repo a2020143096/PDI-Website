@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.texto{
+    width: 650px;
+}
+
+.texto h5{
+  font-size: 17px;
+  margin-bottom:25px;
+  color: white;
+
+}   
+.display-5{
+  font-size: 1.3rem;
+}
+
+.image-right {
+  margin-left: auto;
+}
+
+#main_logo{
+  width: 160px;
+  height: auto;
+}
+
+p, h5, h2, h3{
+  text-align: justify;
+}
+
+.middle_img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left_img{
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.right_img{
+  margin-left: auto;
+  margin-right: 0px;
+  float:right;
+}
+
+#phone_img{
+  max-width: 300px;
+}
+
+.row_content{
+  text-align: center;
+}
+
+.center_container{
+  display: flex !important;
+  align-items: center !important;
+  
+  
+  
+}
+
+.center_content{
+  text-align: left;
+  height: auto;
+}
+
+
+
+@media (min-width:992px){
+
+
+
+}
+
+@media (min-width:768px){
+
+  .middle_img{
+    margin-left:100px;
+  }
+
+  .row_content{
+    text-align: left;
+  }
+
+}
+

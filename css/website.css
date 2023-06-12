@@ -1,0 +1,35 @@
+#shop-cart{
+    position: fixed;
+    right:0;
+    width:300px;
+    height: 100%;
+    background-color:white;
+    z-index: 1;
+}
+#shop-cart .preco {
+    color: black;
+}
+#shop-cart .nome {
+    color: black;
+}
+#shop-cart .p-cart{
+    display: flex;
+    padding: .8rem;
+}
+
+#shop-cart .p-cart img{
+    align-self: flex-start;
+    width: 60px;
+    height: auto;
+    margin-top:1rem;
+}
+
+#shop-cart .p-cart .nome{
+    font-size:.9rem;
+}
+
+#shop-cart .p-cart .preco{
+    font-size:.9rem;
+    font-weight: bold;
+    margin-top:.6rem;
+}
